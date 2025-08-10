@@ -58,14 +58,16 @@ export default function Projects({ projects }: ProjectsProps) {
                 >
                   GitHub
                 </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1 bg-purple-600 text-white text-sm rounded hover:bg-purple-700"
-                >
-                  Live Demo
-                </a>
+                {project.demo && project.demo.trim() !== "" && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 py-1 bg-purple-600 text-white text-sm rounded hover:bg-purple-700"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </div>

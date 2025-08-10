@@ -164,8 +164,7 @@ export default function App() {
         <footer id="resume" className="py-12 text-center text-gray-400">
           <div className="max-w-2xl mx-auto">
             <p className="mb-4">
-              © {new Date().getFullYear()} Guru Prasad G M — Built with love for
-              innovative software solutions.
+              © {new Date().getFullYear()} Guru Prasad G M 
             </p>
           </div>
         </footer>
