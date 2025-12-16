@@ -13,33 +13,43 @@ export default function Hero() {
         >
           Hi, I’m <span className="text-purple-600">Guruprasad G M</span>
           <br />
-          A <span className="text-purple-600">Java Full Stack</span>{" "}
-          Developer in training at Jspiders.
+          Associate Engineer – Technology @{" "}
+          <span className="text-purple-600">Virtusa</span>
         </motion.h1>
         <div className="mt-6 flex items-center gap-4">
           <a
-            href="#projects"
+            href="hashtag#projects"
             className="bg-purple-400 text-white px-5 py-3 rounded-md font-semibold shadow transition-transform duration-200 hover:scale-105 hover:bg-purple-600"
           >
             Explore Projects
           </a>
           <a
-            href="#contact"
+            href="hashtag#contact"
             className="px-5 py-3 border border-purple-400 rounded-md text-purple-600 transition-transform duration-200 hover:scale-105 hover:bg-purple-100 hover:text-purple-800"
           >
             Contact Me
           </a>
         </div>
         <div className="mt-6 flex items-center gap-4 text-gray-500">
-          <a aria-label="GitHub" href="https://github.com/Guruprasad619" target="_blank" rel="noopener noreferrer">
+          <a
+            aria-label="GitHub"
+            href="https://github.com/Guruprasad619"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub size={20} />
           </a>
-          <a aria-label="LinkedIn" href="https://linkedin.com/in/guruprasadgm" target="_blank" rel="noopener noreferrer">
+          <a
+            aria-label="LinkedIn"
+            href="https://linkedin.com/in/guruprasadgm"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin size={20} />
           </a>
           <a
             aria-label="Email"
-            href="mailto:guruprasadgm404@gmail.com"
+            href="mailto:guruprasadgm3@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -26,7 +26,7 @@ export default function Navbar() {
           Contact
         </a>
         <a
-          href="/assets/Latest_resume.pdf"
+          href="/assets/Guruprasad_GM_2025.pdf"
           download
           className="ml-4 inline-flex items-center gap-2 bg-purple-400 text-white px-4 py-2 rounded-md font-semibold shadow-lg transition-transform duration-200 hover:scale-105 hover:bg-purple-600"
         >

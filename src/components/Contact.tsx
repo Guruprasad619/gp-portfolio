@@ -4,11 +4,17 @@ interface ContactProps {
   form: {
     [key: string]: string;
   };
-  handleChange: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
+  handleChange: (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void;
   handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
 }
 
-export default function Contact({ form, handleChange, handleSubmit }: ContactProps) {
+export default function Contact({
+  form,
+  handleChange,
+  handleSubmit,
+}: ContactProps) {
   return (
     <section id="contact" className="py-12">
       <h2 className="text-2xl text-purple-600 font-bold">Contact Me</h2>
@@ -20,18 +26,14 @@ export default function Contact({ form, handleChange, handleSubmit }: ContactPro
                 <strong>Get in touch</strong>
               </h4>
               <p className="leading-relaxed">
-                I’m open to internships and entry-level roles. Feel free to
-                reach out for collaborations or interview opportunities.
+                I’m open to professional conversations, technical discussions, mentoring opportunities, and short-term collaborations.<br></br> Feel free to reach out if you’d like to connect or discuss potential opportunities.
               </p>
               <div className="mt-4 space-y-4 text-gray-600 text-sm">
                 <div>
-                  <strong>Email:</strong> guruprasadgm404@gmail.com
+                  <strong>Email:</strong> guruprasadgm3@gmail.com
                 </div>
                 <div>
-                  <strong>Location:</strong> Bengaluru, Karnataka, India
-                </div>
-                <div>
-                  <strong>Available:</strong> Immediate
+                  <strong>Location:</strong> Chennai, Karnataka, India
                 </div>
               </div>
             </div>
